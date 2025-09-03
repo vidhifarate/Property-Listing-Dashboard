@@ -1,0 +1,98 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Plot",
+      "type": "Plot",
+      "price": 250000,
+      "location": "Pune",
+      "description": "A large plot of land available for development.",
+      "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 2,
+      "name": "Shed",
+      "type": "Shed",
+      "price": 76000,
+      "location": "Bengaluru",
+      "description": "An industrial shed in a prime location.",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 3,
+      "name": "Retail Store",
+      "type": "Retail Store",
+      "price": 150000,
+      "location": "Hyderabad",
+      "description": "A commercial retail space in the city center.",
+      "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 4,
+      "name": "Plot Store",
+      "type": "Plot",
+      "price": 200000,
+      "location": "Khermai",
+      "description": "A spacious plot situated in a serene area.",
+      "image": "https://images.unsplash.com/photo-1599420186946-7b4e3e8a6e5b?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 5,
+      "name": "Plot",
+      "type": "Plot",
+      "price": 300000,
+      "location": "Chennai",
+      "description": "A specious plot situated in a serene area.",
+      "image": "https://images.unsplash.com/photo-1560184897-ae75f4184934?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 6,
+      "name": "Shed",
+      "type": "Shed",
+      "price": 30000,
+      "location": "Mumbai",
+      "description": "A medium sized shed in a commercial zone.",
+      "image": "https://images.unsplash.com/photo-1581091215367-59ab52a2cda3?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 7,
+      "name": "Retail Store",
+      "type": "Retail Store",
+      "price": 175000,
+      "location": "Kolkata",
+      "description": "A commercial space located in city center.",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 8,
+      "name": "Plot",
+      "type": "Plot",
+      "price": 160000,
+      "location": "Jaipur",
+      "description": "A large plot of land available for development.",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": "fe1c",
+      "name": "prerna apartment ",
+      "type": "apartment ",
+      "price": "4500000",
+      "location": "Sangli ",
+      "description": "3 bhk flat\nground floor",
+      "image": "https://share.google/images/q84MDE5QmI8LaOnw7"
+    },
+    
+    {
+  "id": 9,
+  "name": "Plot",
+  "type": "Plot",
+  "price": 250000,
+  "location": "Pune",
+  "description": "A large plot of land available for development.",
+  "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60",
+  "lat": 18.5204,
+  "lng": 73.8567
+}
+
+  ]
+}
