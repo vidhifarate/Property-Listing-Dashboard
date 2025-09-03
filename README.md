@@ -1,12 +1,78 @@
-# React + Vite
+#  Mini Property Listing Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based mini dashboard that allows users to:
 
-Currently, two official plugins are available:
+- View property listings (with images, price, and description)  
+- Search and filter properties by type or location  
+- Add new properties dynamically  
+- View full property details in a modal (with optional Google Maps integration)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Project Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+```bash
+git clone <your-repo-url>
+cd property-listings
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start JSON Server (Backend)
+Run this in **Git Bash Window 1**:
+```bash
+npx json-server --watch db.json --port 5000
+```
+
+### 4. Start React App (Frontend)
+Run this in **Git Bash Window 2**:
+```bash
+npm run dev
+```
+
+---
+
+##  Dependencies Used
+- **React** (Frontend UI framework)  
+- **Axios** (for API calls to JSON Server)  
+- **JSON Server** (mock backend for property data)  
+
+---
+
+##  File Structure
+```
+property-listings/
+ ├── public/
+ ├── src/
+ │   ├── App.jsx       # Main application
+ │   ├── App.css       # Styling
+ │   ├── main.jsx      # React entry point
+ │   └── index.css     # Global styles
+ ├── db.json           # Fake backend data
+ ├── package.json      # Project dependencies
+ ├── README.md         # Project documentation
+```
+
+---
+
+##  How It Works
+1. The app fetches property data from **db.json** using JSON Server.  
+2. Users can:
+   - **View Listings** → Cards with property details and images  
+   - **Filter/Search** → By name, location, or type  
+   - **Add Property** → New entries saved to db.json  
+   - **View Details** → Modal popup with full info (+ Google Maps if coordinates exist)  
+
+---
+
+##  Screenshots
+
+
+---
+
+##  Optional Feature
+- Google Maps integration → requires a Google Maps API key. Add `lat` and `lng` fields in `db.json`.
