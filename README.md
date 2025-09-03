@@ -70,6 +70,8 @@ property-listings/
 ---
 
 ##  Screenshots
+https://github.com/vidhifarate/Property-Listing-Dashboard/blob/main/screenshots/Screenshot%201.png
+https://github.com/vidhifarate/Property-Listing-Dashboard/blob/main/screenshots/Screenshot%202.png
 
 
 ---
